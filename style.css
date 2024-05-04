@@ -1,0 +1,113 @@
+/******* Base Styles *******/
+html, body {
+  height: 100%;  
+}
+
+body {
+  font-size: 7em;
+  background: #56BFB5;  
+  color: #FBD66F;
+}
+
+p {
+  line-height: 1.3em;
+}
+
+button {
+  background: #56BFB5;
+  
+}
+/******* Main Styles *******/
+
+
+#try-screen {
+  display: none;
+  text-align: center;
+}
+
+#try-screen, #working-screen {
+  vertical-align: middle;
+}
+
+#final-score {
+  font-size: 0.6em;
+}
+
+#restart-button {
+  font-size: 0.5em;
+/*  display: none;*/
+}
+
+#display {
+  margin: 3% auto;
+  min-width: 200px;
+  max-width: 400px;
+  float: none;
+  background: #3D84A8;
+  border-radius: 10px;
+  height: 400px;
+}
+
+#progressbar {
+  width: 90%;
+  height: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+#controls {
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  
+}
+
+#controls button {
+  background: #56BFB5;
+  width: 110px;
+  margin: 1%;
+}
+
+#tick {
+  color: green;
+}
+
+#cross {
+  color: red;
+  margin-top: 0;
+}
+
+#score {
+  font-size: 0.7em;
+  float: none;
+}
+
+/******* Pseudoclass Styles *******/
+
+/******* Layout Styles *******/
+
+/******* Media Queries *******/
+@media (max-width: 600px) {
+  body {
+    font-size: 5em;
+  }
+  
+  #display {
+      height: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 4em;
+  }
+  
+  #display {
+      height: 300px;
+  }
+ /* #display {
+    margin-top: 20%;
+    min-width: 80%;
+    min-height: 70%;
+  }*/
+}
